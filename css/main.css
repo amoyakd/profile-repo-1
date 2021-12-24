@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: monospace;
+}
+
+.site-header {
+  height: 100vh;
+  background-color: #0b855c;
+  color: azure;
+  line-height: 1.5;
+
+  padding: 4.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-pic {
+  height: 16rem;
+  width: 16rem;
+  border-radius: 50%;
+}
